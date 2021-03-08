@@ -8,13 +8,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.contentTop {
+.contentTop > p {
   margin-left: 24vw;
   margin-top: 13vw;
   width: 18vw;
-}
-
-.contentTop > p {
   font-size: 1.8vw;
   font-weight: 900;
   line-height: 2.2vw;
@@ -22,6 +19,24 @@ p {
 }
 
 .contentTop > p > span {
+  color: black;
+}
+
+.contentTop > .yellowBox {
+  z-index: 1;
+  position: absolute;
+  background-color: #f4d80c;
+  margin-top: 11vw;
+  padding-right: 6vw;
+}
+
+.contentTop > .yellowBox > p {
+  margin: 0;
+  margin-left: 24vw;
+  font-size: 1.8vw;
+  font-weight: 900;
+  line-height: 2.2vw;
+  width: 18vw;
   color: black;
 }
 
