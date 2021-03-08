@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #88898c;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.contentTop {
+  margin-left: 24vw;
+  margin-top: 13vw;
+  width: 18vw;
+}
+
+.contentTop > p {
+  font-size: 1.8vw;
+  font-weight: 900;
+  line-height: 2.2vw;
+  color: white;
+}
+
+.contentTop > p > span {
+  color: black;
+}
+
+.title > p {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 2vw;
+  font-size: 17vw;
+}
+
+.title > p > span {
+  color: white;
+}
+
+.contentBottom {
+  margin-left: 44vw;
+  margin-top: -17.25vw;
+  margin-bottom: 13vw;
+  width: 21.5vw;
+}
+
+.contentBottom > p {
+  font-size: 1.5vw;
+  font-weight: 900;
+  line-height: 1.9vw;
+  color: white;
+}
+
+.contentBottom > p > span {
+  color: black;
+}
