@@ -8,6 +8,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+* {
+  margin: 0;
+}
+
 .contentTop > p {
   margin-left: 24vw;
   margin-top: 13vw;
@@ -22,9 +26,11 @@ p {
   position: absolute;
   background-color: #f4d80c;
   color: black;
+  margin: 0;
 }
 
 .contentTop > .yellowBox > p:nth-child(1) {
+  margin: 0;
   z-index: 2;
   margin-top: 10.95vw;
   padding-right: 6vw;
@@ -47,6 +53,7 @@ p {
   font-size: 17vw;
   background-color: #231f20;
   color: white;
+  margin: 0;
 }
 
 .title > .blackBox > p:nth-child(1) {
@@ -91,7 +98,6 @@ p {
 .contentBottom > p {
   font-size: 1.5vw;
   font-weight: 900;
-  line-height: 1.9vw;
   color: white;
 }
 
@@ -99,13 +105,16 @@ p {
   position: absolute;
   background-color: #f4d80c;
   color: black;
+  margin: 0;
 }
 
 .contentBottom > .yellowBox > p:nth-child(1) {
+  margin: 0;
+  padding: 0;
   z-index: 0;
-  margin-top: 31.86vw;
+  margin-top: 30.7vw;
   margin-left: 6.242vw;
-  right:0;
+  white-space: nowrap;
   padding-right: 38vw;
   padding-left: 0.3vw;
   font-size: 1.5vw;
